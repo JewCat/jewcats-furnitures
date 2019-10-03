@@ -5,7 +5,7 @@
 	include("file.class.php");
 	include("validation.class.php");
 
-	$baseUrl = "http://".$_SERVER['HTTP_HOST']."/jewcats-furnitures/src";
+	$baseUrl = "http://".$_SERVER['HTTP_HOST']."/jewcats-furnitures/app";
 	$salt = md5("md5");
 
 	$dsn = "mysql:host=localhost;port=3306;dbname=jewcatsfurnituresdb";
